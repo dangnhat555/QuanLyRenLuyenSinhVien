@@ -2,6 +2,8 @@ package com.example.demo.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -12,18 +14,16 @@ import javax.persistence.Table;
 public class HoatDong {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ma_hoat_dong")
 	private Long maHoatDong;
 
+	
 	@Column(name = "ten_hoat_dong")
 	private String tenHoatDong;
 
-	@ManyToOne
-	@JoinColumn(name = "ten_dang_nhap")
-	private TaiKhoan tenDangNhap;
-
-	@Column(name = "hoat_dong")
-	private boolean hoatDong;
+	@Column(name = "tinh_trang")
+	private boolean tinhTrang;
 
 	public Long getMaHoatDong() {
 		return maHoatDong;
@@ -41,20 +41,12 @@ public class HoatDong {
 		this.tenHoatDong = tenHoatDong;
 	}
 
-	public TaiKhoan getTenDangNhap() {
-		return tenDangNhap;
+	public boolean isTinhTrang() {
+		return tinhTrang;
 	}
 
-	public void setTenDangNhap(TaiKhoan tenDangNhap) {
-		this.tenDangNhap = tenDangNhap;
-	}
-
-	public boolean isHoatDong() {
-		return hoatDong;
-	}
-
-	public void setHoatDong(boolean hoatDong) {
-		this.hoatDong = hoatDong;
+	public void setTinhTrang(boolean tinhTrang) {
+		this.tinhTrang = tinhTrang;
 	}
 
 }
