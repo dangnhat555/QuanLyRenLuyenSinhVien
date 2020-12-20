@@ -65,7 +65,7 @@
 				<tr>
 				<td scope="row">NhatKoo</td>
 					<td>Admin</td>
-					<td>Nguyễn Đăng Nhật</td>
+					<td>Võ Lê Trung Chiến</td>
 					<td>40</td>
 					<td>10/12/1997</td>
 					<td>0985722125</td>
