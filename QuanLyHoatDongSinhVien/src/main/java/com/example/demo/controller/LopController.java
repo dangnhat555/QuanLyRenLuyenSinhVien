@@ -6,5 +6,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class LopController {
-	
+	@RequestMapping(value = "/lop",method = RequestMethod.GET)
+	private String quanlytaikhoan() {
+		return "QuanLyLop";
+	}
 }

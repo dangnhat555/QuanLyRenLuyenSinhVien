@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Nhật Coder</title>
+<title>Con Cá</title>
 
 </head>
 
@@ -25,7 +25,7 @@
 		<ul class="nav nav-tabs">
 			<li class="nav-item"><a class="nav-link active" href="#">Tài
 					Khoản</a></li>
-			<li class="nav-item"><a class="nav-link " href="QuanLyLop">Lớp</a>
+			<li class="nav-item"><a class="nav-link " href="lop">Lớp</a>
 			</li>
 			<li class="nav-item"><a class="nav-link " href="#">Hoạt Động</a>
 			</li>
@@ -55,28 +55,28 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td scope="row">NhatKoo</td>
+					<a><td scope="row">NhatKoo</td></a>
 					<td>Admin</td>
 					<td>Nguyễn Đăng Nhật</td>
-					<td>40</td>
+					<td>40B</td>
 					<td>10/12/1997</td>
 					<td>0985722125</td>
 				</tr>
 				<tr>
-				<td scope="row">NhatKoo</td>
+				<td scope="row">TrungChien</td>
 					<td>Admin</td>
 					<td>Võ Lê Trung Chiến</td>
-					<td>40</td>
-					<td>10/12/1997</td>
-					<td>0985722125</td>
+					<td>40A</td>
+					<td>15/11/1998</td>
+					<td>0985343125</td>
 				</tr>
 				<tr>
-					<td scope="row">NhatKoo</td>
-					<td>Admin</td>
-					<td>Nguyễn Đăng Nhật</td>
-					<td>40</td>
-					<td>10/12/1997</td>
-					<td>0985722125</td>
+					<td scope="row">Lamkl</td>
+					<td>User</td>
+					<td>Nguyễn Trường Lâm</td>
+					<td>40B</td>
+					<td>09/05/1999</td>
+					<td>0985778125</td>
 				</tr>
 			</tbody>
 		</table>
