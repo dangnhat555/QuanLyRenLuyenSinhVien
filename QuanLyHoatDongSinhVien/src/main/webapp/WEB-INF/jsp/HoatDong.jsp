@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Lớp</title>
+<title>Hoạt Động</title>
 </head>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -15,7 +15,7 @@
 		<div class="container">
 			<ul class="mainmenu">
 				<li><a href="quanlytaikhoan">Tài Khoản</a></li>
-				<li><a href="">Lớp</a>
+				<li><a href="lop">Lớp</a>
 					<ul class="submenu">
 						<li><a href="#">CNTT</a>
 							<ul class="child-submenu">
@@ -49,17 +49,23 @@
 		<table class="table text-center">
 			<caption></caption>
 			<thead>
+				<tr class="1">
+					<th >Nội Dung Hoạt Động</th>
+				</tr>
 				<tr>
-					<th scope="col">MSV</th>
 					<th scope="col">Họ & Tên</th>
+				</tr>
 					<th scope="col">Ngày Sinh</th>
 					<th scope="col">Địa Chỉ</th>
 					
 				</tr>
 			</thead>
 			<tbody>
+				<tr class="1">
+					<td>sadfvasva</td>
+				</tr>
 				<tr>
-					<a><td scope="row">4051050034</td></a>
+					<a><td >4051050034</td></a>
 					<td>Nhật Gà</td>	
 				</tr>
 			</tbody>
