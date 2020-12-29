@@ -57,8 +57,21 @@
 				</tr>
 					<th scope="col">Ngày Sinh</th>
 					<th scope="col">Địa Chỉ</th>
-					
 				</tr>
+				<h2>Nội Dung Hoạt Động </h2>
+					<ul>
+  						<li>Coffee</li>
+  						<li>Tea</li>
+  						<li>Milk</li>
+					</ul>  
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
 			</thead>
 			<tbody>
 				<tr class="1">
